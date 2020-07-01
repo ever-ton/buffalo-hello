@@ -1,21 +1,27 @@
-# Welcome to Buffalo!
+# go-hello 
 
-Thank you for choosing Buffalo for your web development needs.
+Simple Hello Word in Golang using buffalo framework and docker to create an image.
 
-## Starting the Application
 
-Buffalo ships with a command that will watch your application and automatically rebuild the Go binary and any assets for you. To do that run the "buffalo dev" command:
 
-	$ buffalo dev
+## Run
+```
+buffalo dev
+```
 
-If you point your browser to [http://127.0.0.1:3000](http://127.0.0.1:3000) you should see a "Welcome to Buffalo!" page.
+## Build Docker
 
-**Congratulations!** You now have your Buffalo application up and running.
+```
+docker build -t yourLogin/buffalo-hello:latest . 
+```
 
-## What Next?
+## Run Docker
+```
+docker run -p 3000:3000 yourLogin/buffalo-hello
+```
 
-We recommend you heading over to [http://gobuffalo.io](http://gobuffalo.io) and reviewing all of the great documentation there.
+## Push to Docker Hub
+```
+docker login
 
-Good luck!
-
-[Powered by Buffalo](http://gobuffalo.io)
+docker push yourLogin/buffalo-hello:latest

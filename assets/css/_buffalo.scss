@@ -3,7 +3,7 @@
 }
 
 header {
-  background-color: #62a5ee;
+  background-color: #212529;
   padding: 10px 20px;
   box-sizing: border-box;
 }
@@ -46,10 +46,10 @@ header {
 }
 
 .subtitle {
-  color: white;
+  color: #ffcd01;
   margin: 0;
   padding: 13px 0;
-  background-color: #2a3543;
+  background-color: #363636;
   margin-bottom: 20px;
 
   h3 {
@@ -127,7 +127,8 @@ table {
     padding: 0;
 
     img {
-      width: 100%
+      width: 40px;
+      height: 50px;
     }
   }
 }
