@@ -1,4 +1,4 @@
-# go-hello 
+# buffalo-hello 
 
 Simple Hello Word in Golang using buffalo framework and docker to create an image.
 
